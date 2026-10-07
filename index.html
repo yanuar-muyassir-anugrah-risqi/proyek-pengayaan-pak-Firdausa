@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INDOMIE - Redesign Website</title>
+  <link rel="icon" type="image/png" href="D:\proyek_pengayaan\logoA.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-wrap">
+      <a href="#home" class="logo">INDOMIE</a>
+      <button class="hamburger" id="hamburger" aria-label="Buka menu">&#9776;</button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#produk">Produk Kita</a></li>
+        <li><a href="#pilihan-favorit">Pilihan Favorit</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="dekor dekor-1"></div>
+      <div class="dekor dekor-2"></div>
+      <div class="container hero-wrap">
+        <div class="hero-teks">
+          <span class="hero-label">Mi Instan Favorit Indonesia</span>
+          <h1>SELERA YANG SELALU MENEMANI</h1>
+          <p>Temukan berbagai pilihan rasa Indomie favoritmu dan nikmati setiap momen bersama rasa yang selalu dekat.</p>
+          <a href="#produk" class="btn">Lihat Produk</a>
+        </div>
+        <div class="hero-img">
+          <img src="D:\proyek_pengayaan\produk.png" alt="Kumpulan Produk">
+        </div>
+      </div>
+    </section>
+
+   <!-- PRODUK -->
+    <section id="produk" class="produk-section">
+      <div class="container">
+        <div class="judul fade">
+          <h2>PRODUK KAMI</h2>
+          <p>Berbagai rasa favorit yang siap menemani setiap momen.</p>
+        </div>
+
+        <div class="produk-utama fade">
+          <div class="utama-gambar">
+            <img id="utamaGambar" src="D:\proyek_pengayaan\indomie-mi-goreng-special_detail_094906814.png" alt="Indomie Mi Goreng" onerror="this.onerror=null;this.src='img/placeholder.svg'">
+          </div>
+          <div class="utama-teks">
+            <h3 id="utamaNama">Indomie Mi Goreng</h3>
+            <p id="utamaDeskripsi">Rasa gurih dan nikmat yang menjadi favorit banyak orang.</p>
+          </div>
+        </div>
+
+        <div class="slider">
+          <button class="panah" id="panahKiri" aria-label="Geser ke kiri">&#10094;</button>
+
+          <div class="slider-track" id="sliderTrack">
+            <button class="item aktif" data-nama="Indomie Mi Goreng" data-gambar="D:\proyek_pengayaan\indomie-mi-goreng-special_detail_094906814.png"
+              data-deskripsi="Varian Indomie paling populer di dunia. Dibuat dari tepung berkualitas dan perpaduan bumbu serta rempah pilihan yang menghasilkan cita rasa gurih dan khas">
+              <img src="D:\proyek_pengayaan\indomie goreng ori.png"" alt="Indomie Mi Goreng" onerror="this.onerror=null;this.src='img/placeholder.svg'">
+              <span>Indomie Goreng</span>
+            </button>
+
+            <button class="item" data-nama="Indomie Mi Goreng Hot &amp; Spicy" data-gambar="D:\proyek_pengayaan\hot spicy.png"
+              data-deskripsi="Perpaduan bumbu pedas, cabai, dan bawang goreng yang cocok untuk kamu yang menyukai rasa mi yang lebih pedas dan menggugah selera">
+              <img src="D:\proyek_pengayaan\indomie-mi-goreng-hot-spicy_thumb_113950389.png" alt="Indomie Mi Goreng Hot and Spicy" onerror="this.onerror=null;this.src='img/placeholder.svg'">
+              <span>Indomie Goreng Hot &amp; Spicy Flavour</span>
+            </button>
+
+            <button class="item" data-nama="Indomie Mi Goreng Satay" data-gambar="D:\proyek_pengayaan\indomie goreng satay.png"
+              data-deskripsi="Terinspirasi dari sate ayam khas Indonesia dengan cita rasa saus kacang yang gurih dan aroma yang harum">
+              <img src="D:\proyek_pengayaan\indomie goreng satay bungkus.png" alt="Indomie Mi Goreng Satay" onerror="this.onerror=null;this.src='img/placeholder.svg'">
+              <span>Indomie Goreng Satay Flavour</span>
+            </button>
+
+            <button class="item" data-nama="Indomie Goreng Barbeque Chicken" data-gambar="D:\proyek_pengayaan\indomie barbeque.png"
+              data-deskripsi="Menghadirkan cita rasa ayam panggang dengan aroma barbeque yang khas dan menggugah selera">
+              <img src="D:\proyek_pengayaan\indomie barbeque bks.png" alt="Indomie Goreng Barbeque Chicken" onerror="this.onerror=null;this.src='img/placeholder.svg'">
+              <span>Indomie Goreng Barbeque Chicken Flavour</span>
+            </button>
+
+            <button class="item" data-nama="Indomie Goreng Rendang" data-gambar="D:\proyek_pengayaan\indomie rendang display.png"
+              data-deskripsi="Terinspirasi dari rendang khas Sumatra, dengan perpaduan rempah rendang yang kaya dan cita rasa khas masakan Indonesia">
+              <img src="D:\proyek_pengayaan\indomie rendang bks.png" alt="Indomie Goreng Rendang" onerror="this.onerror=null;this.src='img/placeholder.svg'">
+              <span>Indomie Goreng Rendang Flavour</span>
+            </button>
+
+            <button class="item" data-nama="Indomie Cup Mie Goreng Flavour" data-gambar="D:\proyek_pengayaan\indomie cup goreng.png"
+              data-deskripsi="Mi Goreng dalam kemasan cup yang praktis dan dilengkapi garpu, cocok untuk dibawa saat bepergian">
+              <img src="D:\proyek_pengayaan\indomie cup goreng.png" alt="Indomie Cup Goreng" onerror="this.onerror=null;this.src='img/placeholder.svg'">
+              <span>Indomie Cup Mie Goreng Flavour</span>
+            </button>
+
+             <button class="item" data-nama="Indomie Cup Barbeque Chicken Flavour" data-gambar="D:\proyek_pengayaan\indomie cup bargeque.png"
+              data-deskripsi="Varian Mi Goreng rasa ayam barbeque dalam kemasan cup yang praktis dan dilengkapi garpu">
+              <img src="D:\proyek_pengayaan\indomie cup bargeque.png" alt="Indomie Cup Barbeque Chicken" onerror="this.onerror=null;this.src='img/placeholder.svg'">
+              <span>Indomie Cup Barbeque Chicken Flavour</span>
+            </button>
+          </div>
+
+          <button class="panah" id="panahKanan" aria-label="Geser ke kanan">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pilihan Favorit -->
+    <section id="pilihan-favorit">
+      <div class="container">
+        <div class="judul fade">
+          <h2>PILIHAN FAVORIT</h2>
+          <p>Berbagai rasa favorit yang siap menemani setiap momen.</p>
+        </div>
+
+        <div class="grid-produk">
+          <article class="card fade">
+            <div class="card-gambar" style="--warna:#ffe9b0">
+              <img src="D:\proyek_pengayaan\indomie goreng ori.png" alt="Indomie Mi Goreng">
+            </div>
+            <div class="card-isi">
+              <h3>Indomie Mi Goreng</h3>
+              <p>Ikonik dan selalu jadi favorit</p>
+              <button class="btn btn-detail" data-nama="Indomie Mi Goreng" data-info="Perpaduan bumbu gurih dan manis yang khas membuat Mi Goreng menjadi salah satu varian Indomie paling populer di dunia">Lihat Detail</button>
+            </div>
+          </article>
+
+          <article class="card fade">
+            <div class="card-gambar" style="--warna:#ffd9d9">
+              <img src="D:\proyek_pengayaan\kari ayam.png" alt="Indomie Kari Ayam">
+            </div>
+            <div class="card-isi">
+              <h3>Indomie Kari Ayam</h3>
+              <p>Gurih dengan aroma kari yang khas</p>
+              <button class="btn btn-detail" data-nama="Indomie Kari Ayam" data-info="Menghadirkan perpaduan mi dan cita rasa kari yang kaya rempah untuk pengalaman makan yang nikmat">Lihat Detail</button>
+            </div>
+          </article>
+
+          <article class="card fade">
+            <div class="card-gambar" style="--warna:#fff3c4">
+              <img src="D:\proyek_pengayaan\indomie rendang bks.png" alt="Indomie Rendang">
+            </div>
+            <div class="card-isi">
+              <h3>Indomie Rendang</h3>
+              <p>Pilihan menarik buat yang suka cita rasa masakan Indonesia yang kuat</p>
+              <button class="btn btn-detail" data-nama="Indomie Rendang" data-info="Mi dengan bumbu rendang yang kaya rempah dan memiliki cita rasa gurih serta sedikit pedas">Lihat Detail</button>
+            </div>
+          </article>
+
+          <article class="card fade">
+            <div class="card-gambar" style="--warna:#ffd9d9">
+              <img src="D:\proyek_pengayaan\Indomie Sambal matah.png" alt="Indomie Sambal Matah">
+            </div>
+            <div class="card-isi">
+              <h3>Indomie Sambal Matah</h3>
+              <p>Cocok buat penyuka rasa pedas dengan sentuhan khas Bali</p>
+              <button class="btn btn-detail" data-nama="Indomie Sambal Matah" data-info="Perpaduan mi dengan cita rasa sambal matah yang segar, gurih, dan pedas">Lihat Detail</button>
+            </div>
+          </article>
+
+          <article class="card fade">
+            <div class="card-gambar" style="--warna:#ffd9d9">
+              <img src="D:\proyek_pengayaan\indomie ayam geprek.png" alt="Indomie Ayam Geprek">
+            </div>
+            <div class="card-isi">
+              <h3>Indomie Ayam Geprek</h3>
+              <p>Pilihan buat yang suka kombinasi gurih dan pedas</p>
+              <button class="btn btn-detail" data-nama="Indomie Ayam Geprek" data-info="Mi dengan perpaduan rasa ayam dan sensasi sambal geprek yang pedas">Lihat Detail</button>
+            </div>
+          </article>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- TENTANG -->
+    <section class="tentang" id="tentang">
+      <div class="container tentang-wrap">
+        <div class="tentang-gambar fade">
+          <img src="D:\proyek_pengayaan\logo.png" alt="Logo Indomie">
+        </div>
+        <div class="tentang-teks fade">
+          <h2>TENTANG INDOMIE</h2>
+          <p>Indomie merupakan merek mi instan asal Indonesia yang telah hadir sejak 1972. Berawal dari varian mi kuah rasa ayam, Indomie terus berkembang dengan menghadirkan beragam pilihan rasa, termasuk Indomie Mi Goreng yang kini dikenal luas hingga mancanegara. Dengan cita rasa yang khas dan penyajian yang praktis, Indomie menemani berbagai momen dalam keseharian masyarakat</p>
+          <button class="btn btn-kuning" id="btnSelengkapnya">Selengkapnya</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak">
+      <div class="container">
+        <div class="judul fade">
+          <h2>HUBUNGI KAMI</h2>
+          <p>Ikuti informasi dan kabar terbaru dari Indomie.</p>
+        </div>
+        <div class="sosmed fade">
+          <a href="https://www.instagram.com/indomie/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.2-3.2a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z"/></svg>
+            Instagram
+          </a>
+          <a href="https://www.facebook.com/Indomie/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M14 8V6.5c0-.7.3-1 1-1h2V2h-3c-3 0-4.5 1.8-4.5 4.5V8H7v3.5h2.5V22H14V11.5h3l.5-3.5H14z"/></svg>
+            Facebook
+          </a>
+          <a href="https://www.youtube.com/user/Indomie" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5 3-5 3z"/></svg>
+            YouTube
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <h3>INDOMIE</h3>
+      <p>Selera yang selalu menemani.</p>
+      <p class="copy">© 2026 Kelompok X RPL 1</p>
+    </div>
+  </footer>
+
+  <!-- MODAL DETAIL PRODUK -->
+  <div class="modal" id="modal">
+    <div class="modal-isi">
+      <h3 id="modalJudul"></h3>
+      <p id="modalIsi"></p>
+      <button class="btn" id="tutupModal">Tutup</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
